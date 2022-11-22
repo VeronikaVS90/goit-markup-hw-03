@@ -42,6 +42,11 @@ ul {
   margin: 0, auto;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .logo {
   color: var(--accent-color);
 
@@ -149,6 +154,8 @@ ul {
 }
 
 .features-title {
+  margin-bottom: 10px;
+
   color: var(--title-text-color);
 
   font-weight: 700;
@@ -176,7 +183,7 @@ ul {
 }
 
 /* Command */
-.command {
+.command.section {
   background-color: var(--secondary-bg-color);
 }
 
