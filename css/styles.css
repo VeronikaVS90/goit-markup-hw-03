@@ -31,7 +31,7 @@ p {
 /* Стилі для обнулення базовых властивостей у списків (ul) */
 ul {
   list-style: none;
-  padding-left: 0;
+  padding: 0;
   margin: 0;
 }
 
@@ -96,22 +96,27 @@ ul {
 /* Стилі для index.html */
 /* Hero */
 .hero-title {
+  margin-bottom: 30px;
+
   color: var(--white-color);
 
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
 .hero {
+  text-align: center;
   background-color: var(--hero-and-footer-bg-color);
 }
 
 /* Button */
 .button-primary {
+  border-radius: 4px;
+  padding: 10px 24px;
+
   color: var(--white-color);
   background-color: var(--accent-color);
   cursor: pointer;
@@ -241,6 +246,10 @@ ul {
 /* Стилі для portfolio.html */
 /* Button в portfolio */
 .button-secondary {
+  border-radius: 4px;
+  padding: 6px 22px;
+  border: transparent;
+
   color: var(--title-text-color);
   background-color: var(--secondary-bg-color);
   cursor: pointer;
