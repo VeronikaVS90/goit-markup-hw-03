@@ -18,22 +18,24 @@
   <body>
     <!-- Шапка сторінки -->
     <header>
-      <nav>
-        <a lang="en" href="./index.html" class="logo"
-          >Web<span class="logo-primary">Studio</span></a
-        >
+      <div class="container">
+        <nav>
+          <a lang="en" href="./index.html" class="logo"
+            >Web<span class="logo-primary">Studio</span></a
+          >
 
-        <ul class="site-nav list">
-          <li><a href="./index.html" class="link current">Студія</a></li>
-          <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
-          <li><a href="#" class="link">Контакти</a></li>
+          <ul class="site-nav">
+            <li><a href="./index.html" class="link current">Студія</a></li>
+            <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
+            <li><a href="#" class="link">Контакти</a></li>
+          </ul>
+        </nav>
+
+        <ul class="cont-nav">
+          <li><a lang="en" href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+          <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
         </ul>
-      </nav>
-
-      <ul class="cont-nav list">
-        <li><a lang="en" href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
-      </ul>
+      </div>
     </header>
 
     <main>
@@ -47,7 +49,7 @@
       <section class="features">
         <h2 class="visually-hidden">Переваги</h2>
 
-        <ul class="features list">
+        <ul class="features container">
           <li>
             <h3 class="features-title">УВАГА ДО ДЕТАЛЕЙ</h3>
             <p class="features-text">
@@ -79,7 +81,7 @@
       <section class="activity">
         <h2 class="activity-title">Чим ми займаємося</h2>
 
-        <ul class="pic-list list">
+        <ul class="pic-list container">
           <li>
             <img
               src="./images/typing.jpg"
@@ -108,7 +110,7 @@
       <section class="command">
         <h2 class="command-title">Наша команда</h2>
 
-        <ul class="command-list list">
+        <ul class="command-list container">
           <li class="command-item">
             <img
               src="./images/igordemyanenko.jpg"
@@ -158,31 +160,33 @@
 
     <!-- Футер -->
     <footer class="footer">
-      <a lang="en" href="./index.html" class="logo">Web<span class="footer-logo">Studio</span></a>
+      <div class="container">
+        <a lang="en" href="./index.html" class="logo">Web<span class="footer-logo">Studio</span></a>
 
-      <address>
-        <ul class="address-nav list">
-          <li>
-            <a
-              href="https://goo.gl/maps/cnvM98otR7dQ5Kq79"
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-              class="link-primary"
-              >м. Київ, пр-т Лесі Українки, 26</a
-            >
-          </li>
+        <address>
+          <ul class="address-nav">
+            <li>
+              <a
+                href="https://goo.gl/maps/cnvM98otR7dQ5Kq79"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                class="link-primary"
+                >м. Київ, пр-т Лесі Українки, 26</a
+              >
+            </li>
 
-          <li>
-            <a lang="en" href="mailto:info@devstudio.com" class="link-secondary"
-              >info@devstudio.com</a
-            >
-          </li>
+            <li>
+              <a lang="en" href="mailto:info@devstudio.com" class="link-secondary"
+                >info@devstudio.com</a
+              >
+            </li>
 
-          <li>
-            <a href="tel:+380961111111" class="link-secondary">+38 096 111 11 11</a>
-          </li>
-        </ul>
-      </address>
+            <li>
+              <a href="tel:+380961111111" class="link-secondary">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>

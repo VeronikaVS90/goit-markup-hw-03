@@ -18,29 +18,31 @@
   <body>
     <!-- Шапка сторінки -->
     <header>
-      <nav>
-        <a lang="en" href="./index.html" class="logo"
-          >Web<span class="logo-primary">Studio</span></a
-        >
+      <div class="container">
+        <nav>
+          <a lang="en" href="./index.html" class="logo"
+            >Web<span class="logo-primary">Studio</span></a
+          >
 
-        <ul class="site-nav list">
-          <li><a href="./index.html" class="link">Студія</a></li>
-          <li><a href="./portfolio.html" class="link current">Портфоліо</a></li>
-          <li><a href="#" class="link">Контакти</a></li>
+          <ul class="site-nav">
+            <li><a href="./index.html" class="link">Студія</a></li>
+            <li><a href="./portfolio.html" class="link current">Портфоліо</a></li>
+            <li><a href="#" class="link">Контакти</a></li>
+          </ul>
+        </nav>
+
+        <ul class="cont-nav">
+          <li><a lang="en" href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+          <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
         </ul>
-      </nav>
-
-      <ul class="cont-nav list">
-        <li><a lang="en" href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
-      </ul>
+      </div>
     </header>
 
     <main>
       <!-- Список кнопок -->
       <section class="section">
         <h1 class="visually-hidden">Портфоліо</h1>
-        <ul class="filter-list list">
+        <ul class="filter-list container">
           <li><button type="button" class="button-secondary">Усі</button></li>
           <li><button type="button" class="button-secondary">Веб-сайти</button></li>
           <li><button type="button" class="button-secondary">Додатки</button></li>
@@ -49,7 +51,7 @@
         </ul>
 
         <!-- Зображення -->
-        <ul class="image list">
+        <ul class="image container">
           <li>
             <a href="#" class="link">
               <img
@@ -157,31 +159,33 @@
 
     <!-- Футер -->
     <footer class="footer">
-      <a lang="en" href="./index.html" class="logo">Web<span class="footer-logo">Studio</span></a>
+      <div class="container">
+        <a lang="en" href="./index.html" class="logo">Web<span class="footer-logo">Studio</span></a>
 
-      <address>
-        <ul class="address-nav list">
-          <li>
-            <a
-              href="https://goo.gl/maps/cnvM98otR7dQ5Kq79"
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-              class="link-primary"
-              >м. Київ, пр-т Лесі Українки, 26</a
-            >
-          </li>
+        <address>
+          <ul class="address-nav">
+            <li>
+              <a
+                href="https://goo.gl/maps/cnvM98otR7dQ5Kq79"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                class="link-primary"
+                >м. Київ, пр-т Лесі Українки, 26</a
+              >
+            </li>
 
-          <li>
-            <a lang="en" href="mailto:info@devstudio.com" class="link-secondary"
-              >info@devstudio.com</a
-            >
-          </li>
+            <li>
+              <a lang="en" href="mailto:info@devstudio.com" class="link-secondary"
+                >info@devstudio.com</a
+              >
+            </li>
 
-          <li>
-            <a href="tel:+380961111111" class="link-secondary">+38 096 111 11 11</a>
-          </li>
-        </ul>
-      </address>
+            <li>
+              <a href="tel:+380961111111" class="link-secondary">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
