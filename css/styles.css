@@ -183,7 +183,7 @@ ul {
 }
 
 /* Command */
-.command.section {
+.section.command {
   background-color: var(--secondary-bg-color);
 }
 
