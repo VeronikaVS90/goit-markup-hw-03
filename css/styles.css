@@ -63,6 +63,14 @@ ul {
 }
 
 /* Site nav */
+.site-nav {
+  display: flex;
+}
+
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .site-nav .link {
   color: var(--title-text-color);
 
