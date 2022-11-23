@@ -182,12 +182,12 @@ ul {
   letter-spacing: 0.03em;
 }
 
-/* Command */
-.section.command {
+/* Our Team */
+.section.team {
   background-color: var(--secondary-bg-color);
 }
 
-.command-title {
+.team-title {
   color: var(--title-text-color);
 
   font-weight: 700;
@@ -197,7 +197,7 @@ ul {
   letter-spacing: 0.03em;
 }
 
-.command-item {
+.team-item {
   background-color: var(--white-color);
 }
 
@@ -210,7 +210,7 @@ ul {
   letter-spacing: 0.03em;
 }
 
-.command-text {
+.team-text {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
