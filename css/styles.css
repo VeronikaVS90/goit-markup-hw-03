@@ -42,12 +42,13 @@ ul {
   margin: 0, auto;
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+.main-nav {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
+  margin-right: 93px;
   color: var(--accent-color);
 
   font-family: Raleway, sans-serif;
@@ -67,13 +68,16 @@ ul {
   display: flex;
 }
 
-.site-nav .item:not(:last-child) {
-  margin-right: 50px;
+.site-nav .item + .item {
+  margin-left: 50px;
 }
 
 .site-nav .link {
-  color: var(--title-text-color);
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
+  color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -91,6 +95,14 @@ ul {
 }
 
 /* Cont nav */
+.cont-nav {
+  display: flex;
+}
+
+.cont-nav .item + .item {
+  margin-left: 40px;
+}
+
 .cont-nav .link {
   color: var(--primary-text-color);
 
@@ -145,6 +157,11 @@ ul {
 .button-primary:focus {
   color: var(--white-color);
   background-color: var(--btn-active-bg-color);
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /* Features */
