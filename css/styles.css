@@ -36,6 +36,7 @@ ul {
 }
 
 .container {
+  display: flex;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -48,6 +49,9 @@ ul {
 }
 
 .logo {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 25px;
   margin-right: 93px;
   color: var(--accent-color);
 
@@ -97,6 +101,8 @@ ul {
 /* Cont nav */
 .cont-nav {
   display: flex;
+  align-items: center;
+  margin-left: auto;
 }
 
 .cont-nav .item + .item {
@@ -104,6 +110,9 @@ ul {
 }
 
 .cont-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--primary-text-color);
 
   font-weight: 500;
