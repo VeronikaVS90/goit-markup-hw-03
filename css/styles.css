@@ -130,7 +130,8 @@ ul {
 /* Стилі для index.html */
 /* Hero */
 .hero-title {
-  margin-bottom: 30px;
+  margin: 0 auto 30px;
+  max-width: 696px;
 
   color: var(--white-color);
 
@@ -142,6 +143,7 @@ ul {
 }
 
 .hero {
+  padding: 200px 0;
   text-align: center;
   background-color: var(--hero-and-footer-bg-color);
 }
@@ -174,6 +176,11 @@ ul {
 }
 
 /* Features */
+
+.section.features {
+  padding-bottom: 0;
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
