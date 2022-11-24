@@ -53,8 +53,8 @@ ul {
   padding-top: 24px;
   padding-bottom: 25px;
   margin-right: 93px;
-  color: var(--accent-color);
 
+  color: var(--accent-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -276,7 +276,30 @@ ul {
   background-color: var(--hero-and-footer-bg-color);
 }
 
+.footer.container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  flex-direction: column;
+}
+
+.address-nav .item + .item {
+  margin-top: 12px;
+}
+
 .footer-logo {
+  display: block;
+  margin-bottom: 28px;
+
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.logo-secondary {
   color: var(--white-color);
 }
 
