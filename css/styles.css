@@ -177,6 +177,10 @@ ul {
 
 /* Features */
 
+.features.container .item + .item {
+  margin-left: 30px;
+}
+
 .section.features {
   padding-bottom: 0;
 }
@@ -214,6 +218,7 @@ ul {
 
 /* Activity */
 .activity-title {
+  margin: 0 auto 50px;
   color: var(--title-text-color);
 
   font-weight: 700;
@@ -221,6 +226,10 @@ ul {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.pic-list.container .item + .item {
+  margin-left: 30px;
 }
 
 /* Our Team */
