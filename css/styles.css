@@ -307,6 +307,16 @@ ul {
 
 /* Стилі для portfolio.html */
 /* Button в portfolio */
+
+.filter-list.container {
+  justify-content: center;
+  margin: 0 auto 50px;
+}
+
+.filter-list.container .item + .item {
+  margin-left: 8px;
+}
+
 .button-secondary {
   border-radius: 4px;
   padding: 6px 22px;
