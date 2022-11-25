@@ -10,6 +10,9 @@
   --btn-active-bg-color: #188ce8;
   --card-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+  --primary-btn-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  --secondary-btn-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 body {
@@ -166,6 +169,9 @@ img {
 .button-primary {
   border-radius: 4px;
   padding: 10px 24px;
+
+  box-shadow: var(--primary-btn-shadow);
+  border: transparent;
 
   color: var(--white-color);
   background-color: var(--accent-color);
@@ -378,6 +384,7 @@ img {
 .button-secondary:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
+  box-shadow: var(--secondary-btn-shadow);
 }
 
 /* Зображення */
