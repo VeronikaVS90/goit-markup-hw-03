@@ -59,7 +59,7 @@ img {
 
 /* Header */
 .header {
-  border: 1px solid var(--border-line-color);
+  border-bottom: 1px solid var(--border-line-color);
 }
 
 .main-nav {
